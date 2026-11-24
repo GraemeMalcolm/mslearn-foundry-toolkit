@@ -111,13 +111,13 @@ You've experimented with a model and prototyped a suitable system instruction fo
 
 ## Give your agent knowledge
 
-So far, the model has answered questions based on the data with which it was trained. While this is useful, it doesn't include domain knowledge specific to your organization or industry, or current information on the web; which might help the model give more relevant answers.
+So far, the agent has answered questions based on the data with which its model was trained. While this is useful, it doesn't include domain knowledge specific to your organization or industry, or current information on the web; which might help the model give more relevant answers.
 
-We can use *tools* to give models access to information sources beyond its training data. 
+We can use *tools* to give agents access to information sources beyond its training data. 
 
 ### Add a Web Search tool
 
-Let's add a tool that enables the model to search the Web for up-to-date information.
+Let's add a tool that enables the agent to search the Web for up-to-date information.
 
 1. In the pane on the left, under the instructions, expand the **Tool** section if it isn't already expanded.
 1. In the **Add Foundry Tools** drop-down list, select **+ Add tools** and add the **Web search** tool.
@@ -140,7 +140,7 @@ Let's add a tool that enables the model to search the Web for up-to-date informa
 1. In the Agent Builder, at the top right of the chat pane, use the **Clear all messages** button to restart the conversation.
 1. In the chat pane, enter the prompt `Find a vintage computer store near Seattle.` (*or your local city!*) and review the response.
 
-    The model should use the web search tool to find vintage computer stores near the specified city.
+    The agent should use the web search tool to find vintage computer stores near the specified city.
 
 1. Enter the prompt `Tell me about ENIAC, and find me a picture of it.`
 
