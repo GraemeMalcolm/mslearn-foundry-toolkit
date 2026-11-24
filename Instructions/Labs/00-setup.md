@@ -75,4 +75,6 @@ Open a new terminal (in Visual Studio Code, select **Terminal** > **New Terminal
 
 ## Summary
 
-You now have the necessary accounts and tools to get started with Ai agent development in Visual Studio Code.
+You now have the necessary accounts and tools to get started with AI agent development in Visual Studio Code.
+
+When you're ready, you can start the [Develop an AI agent with the Foundry Toolkit](./01-create-agent.md) exercise.
