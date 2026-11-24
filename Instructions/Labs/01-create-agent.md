@@ -228,7 +228,9 @@ The code interpreter tool provides your agent with a sandbox environment in whic
 
 ## Use external tools
 
-So far, we've used only built-in tools that are available in Foundry. Thanks to the *model context protocol* (MCP), agents can find tools hosted by external providers and use them when appropriate.
+So far, we've used only built-in tools that are available in Foundry. Agents can use the *model context protocol* (MCP) to find tools hosted by external providers and use them when appropriate.
+
+> **Citation**: This exercise uses the Wikipedia MCP server (https://github.com/cyanheads/wikipedia-mcp-server), an open-source project created by cyanheads and released under the Apache 2.0 license. The exercise connects to a public instance of the server, hosted by the project’s author at https://wikipedia.caseyjhand.com/mcp. Thanks to the author for making it available! Article text is from Wikipedia, and is available under the Creative Commons Attribution-ShareAlike 4.0 license.
 
 ### Add an MCP tool
 
