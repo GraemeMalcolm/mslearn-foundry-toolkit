@@ -251,7 +251,7 @@ So far, we've used only built-in tools that are available in Foundry. Agents can
 1. Connect to the server and add it to the agent.
 1. In the Agent Builder, in the **Tool** section, use the **...** icon to configure the Wikipedia MCP tool and ensure it automatically allows all tools.
 
-    > ![Image of Anton.](./Media/anton-icon.png)<br/>**Important**: This is a deliberate choice that allows the existing client to work without adding an approval interface In some scenarios, you may want to allow prompt the user for permission each time the agent wants to access a tool via MCP, or automatically approve only some of its tools.
+    > ![Image of Anton.](./Media/anton-icon.png)<br/>**Important**: This is a deliberate choice that allows the existing client to work without adding an approval interface In some scenarios, you may want to prompt the user for permission each time the agent wants to access a tool via MCP, or automatically approve only some of its tools.
 
 1. Modify the **Instructions** to tell the agent when to use the MCP tool:
 
