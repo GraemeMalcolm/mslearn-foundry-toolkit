@@ -374,6 +374,8 @@ Now you're ready to test the app with your agent.
 
     > ![Image of Anton.](./Media/anton-icon.png)<br/>**Note**: In most scenarios, just using *az login* will be sufficient. However, if you have subscriptions in multiple tenants, you may need to specify the tenant by using the *--tenant* parameter. See [Sign into Azure interactively using the Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli-interactively) for details.
 
+    Signing in ensures that the app runs in the context of your Azure account, and uses that identity to access the agent in Foundry. In a real production scenario, the app would be assigned its own Entra ID managed identity.
+
 1. After you have signed in, enter the following command to run the application:
 
     ```powershell
