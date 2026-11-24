@@ -42,7 +42,7 @@ A Microsoft Foundry project provides a workspace for AI agent development in a M
 
 1. Deploy the gpt-5-mini model in your project using the default settings.
 
-    > ![Image of Anton.](./media/anton-icon.png)<br/> **Tip**: If you have insufficient quota or the model is not available in your project's region, select a different **gpt** model.
+    > ![Image of Anton.](./Media/anton-icon.png)<br/> **Tip**: If you have insufficient quota or the model is not available in your project's region, select a different **gpt** model.
 
     When deployment has completed, the model is opened in the playground.
 
@@ -148,7 +148,7 @@ Let's add a tool that enables the model to search the Web for up-to-date informa
 
     ![Screenshot of a chat response including web search results.](./Media/image-search.png)
 
-    > ![Image of Anton.](./media/anton-icon.png)<br/> **Note**: The image may not be rendered in the chat pane, but you can use the link to view it in its source page.
+    > ![Image of Anton.](./Media/anton-icon.png)<br/> **Note**: The image may not be rendered in the chat pane, but you can use the link to view it in its source page.
 
 ### Add a File Search tool
 
@@ -224,7 +224,7 @@ The code interpreter tool provides your agent with a sandbox environment in whic
 
     ![Screenshot of a chat response that uses the code interpreter tool.](./Media/timeline-response.png)
 
-    > ![Image of Anton.](./media/anton-icon.png)<br/> **Note**: The image may not be rendered in the playground. A client application would need to retrieve it from the sandbox container where it was saved.
+    > ![Image of Anton.](./Media/anton-icon.png)<br/> **Note**: The image may not be rendered in the playground. A client application would need to retrieve it from the sandbox container where it was saved.
 
 ## Use external tools
 
@@ -249,7 +249,7 @@ So far, we've used only built-in tools that are available in Foundry. Thanks to 
 1. Connect to the server and add it to the agent.
 1. In the Agent Builder, in the **Tool** section, use the **...** icon to configure the Wikipedia MCP tool and ensure it automatically allows all tools.
 
-    > ![Image of Anton.](./media/anton-icon.png)<br/>**Important**: This is a deliberate choice that allows the existing client to work without adding an approval interface In some scenarios, you may want to allow prompt the user for permission each time the agent wants to access a tool via MCP, or automatically approve only some of its tools.
+    > ![Image of Anton.](./Media/anton-icon.png)<br/>**Important**: This is a deliberate choice that allows the existing client to work without adding an approval interface In some scenarios, you may want to allow prompt the user for permission each time the agent wants to access a tool via MCP, or automatically approve only some of its tools.
 
 1. Modify the **Instructions** to tell the agent when to use the MCP tool:
 
@@ -299,7 +299,7 @@ First, let's configure the application to connect to your agent.
 1. Save the updated **.env** file.
 1. In Visual Studio Code, in the **Command Palette** (**View | Command Palette** or **CTRL_SHIFT+P**), use the command `python:select interpreter` to create a new **Venv** environment based on your Python 3.1x installation.
 
-    > ![Image of Anton.](./media/anton-icon.png)<br/>**Tip**: If prompted, skip the step to install required packages; we'll do it in a later step.
+    > ![Image of Anton.](./Media/anton-icon.png)<br/>**Tip**: If prompted, skip the step to install required packages; we'll do it in a later step.
 
 1. Wait for the environment to be created. It may take a while, and some notifications may be displayed during the process.
 
@@ -318,7 +318,7 @@ Now you're ready to implement the code that will submit prompts to your agent.
 1. In the **Explorer** pane, in the **/computer-history-client** folder, select the **agent_client.py** file (<u>not</u> *app.py*) to open it.
 1. Review the existing code. You will add code to use the OpenAI Response API to interact with your agent.
 
-    > ![Image of Anton.](./media/anton-icon.png)<br/>**Tip**: As you add code to the code file, be sure to maintain the correct indentation.
+    > ![Image of Anton.](./Media/anton-icon.png)<br/>**Tip**: As you add code to the code file, be sure to maintain the correct indentation.
 
 1. Find the comment **Import Azure Identity and OpenAI client libraries**, and add the following code to import the Azure Identity classes required to use Entra ID authentication, and the OpenAI library.
 
@@ -356,7 +356,7 @@ Now you're ready to implement the code that will submit prompts to your agent.
 1. Read through the rest of the code, using the comments to understand the technique of tracking user inputs and responses in a conversation history.
 1. Save the updated **agent_client.py** file.
 
-    > ![Image of Anton.](./media/anton-icon.png)<br/>**Tip**: If you have a GitHub account, you can sign into it in Visual Studio Code to enable AI features. Then view the GitHub Copilot chat pane, and with the **agent_client.py** file open, ask GitHub Copilot to explain the code.
+    > ![Image of Anton.](./Media/anton-icon.png)<br/>**Tip**: If you have a GitHub account, you can sign into it in Visual Studio Code to enable AI features. Then view the GitHub Copilot chat pane, and with the **agent_client.py** file open, ask GitHub Copilot to explain the code.
 
 ### Run the client application
 
@@ -370,7 +370,7 @@ Now you're ready to test the app with your agent.
 
 1. When prompted, follow the instructions to sign into Azure. Then complete the sign in process in the command line, viewing (and confirming if necessary) the details of the subscription containing your Foundry resource.
 
-    > ![Image of Anton.](./media/anton-icon.png)<br/>**Note**: In most scenarios, just using *az login* will be sufficient. However, if you have subscriptions in multiple tenants, you may need to specify the tenant by using the *--tenant* parameter. See [Sign into Azure interactively using the Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli-interactively) for details.
+    > ![Image of Anton.](./Media/anton-icon.png)<br/>**Note**: In most scenarios, just using *az login* will be sufficient. However, if you have subscriptions in multiple tenants, you may need to specify the tenant by using the *--tenant* parameter. See [Sign into Azure interactively using the Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli-interactively) for details.
 
 1. After you have signed in, enter the following command to run the application:
 
