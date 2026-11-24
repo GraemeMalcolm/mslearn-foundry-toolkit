@@ -73,13 +73,6 @@ Open a new terminal (in Visual Studio Code, select **Terminal** > **New Terminal
 
     > **Tip**: On Windows, if running `python` opens the Microsoft Store instead, you may need to turn off the **python.exe** app execution alias in **Settings** > **Apps** > **Advanced app settings** > **App execution aliases**, and then open a new terminal.
 
-## Get the lab files
-
-1. In Visual Studio Code, open the Command Palette (*Ctrl+Shift+P*, or on the **View** menu, select **Command Palette**), enter the `Git: Clone` command, and clone `https://github.com/GraemeMalcolm/mslearn-foundry-toolkit` to a local folder of your choice.
-1. When the clone is complete, open the folder when prompted.
-
-    The lab files include the code files and resources you'll need to complete the lab exercises.
-
 ## Summary
 
 You now have the necessary accounts and tools to get started with Ai agent development in Visual Studio Code.
