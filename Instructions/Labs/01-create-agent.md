@@ -414,7 +414,7 @@ Now you're ready to test the app with your agent.
 
 ### Continue to experiment
 
-1. Try the other images in the *test-images* folder with prompts like `Tell me about this?` and other prompts that should use the tools you added to the agent
+1. Try the other images in the *test-images* folder with prompts like `Who manufactured this?` and other prompts that should use the tools you added to the agent
 
 1. When you've finished testing the app, close the browser, and in Visual Studio, enter **CTRL+C** in the terminal pane, to stop the local web server.
 
